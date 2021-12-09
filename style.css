@@ -1,0 +1,174 @@
+*{ 
+    margin:0; 
+    Padding:0; 
+    box-sizing:border-box; 
+    font-family: Arial; 
+   font-size: medium;
+    } 
+    body{ 
+    background-color:rgb(20,20,20); 
+    } 
+   
+    header{ 
+   background-image: url(arenacorinthians.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+    } 
+   
+   .center{ 
+   max-width:1280px; 
+    margin: 0 auto; 
+    padding: 0 2%; 
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items:center;
+    } 
+   
+   .logo{ 
+   display:inline-block; 
+    vertical-align:middle; 
+    
+    } 
+   
+   .logo img{ 
+   max-width:500px; 
+   width:100%; 
+   padding: 5%;
+    } 
+   
+    .menu{ 
+    width: 70%; 
+    } 
+   
+   .menu-items{ 
+    padding:0 20px; 
+    margin-top:10px; 
+    display:inline-block; 
+    position: static;
+    color: black;
+    text-align: center;
+    } 
+   
+   .menu-itens a{ 
+    color: black;
+    margin-right:10px; 
+    text-decoration:none; 
+    } 
+   
+   .menu-items a:hover{ 
+    color:white; 
+    } 
+    
+    h1 img{
+   width: 500px;
+   height:500PX;
+   margin: 0;
+   
+    }
+   
+   h1{
+     color: white;
+     text-align: center;
+   }
+
+   h2{
+       text-align: center;
+        color: white;
+   }
+   
+   H2 img{
+ width: 1000px;
+ height: 800px;
+ margin: 0;
+   }
+
+   h3{
+       text-align: center;
+       color: white;
+   }
+
+   h3 img{
+width: 500px;
+height: 500PX;
+margin: 0;
+}
+
+footer{
+  background: #111;
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h4{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+
+}
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+  margin: 0 10px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+}
+
+.socials a:hover{
+  color: red;
+}
+
+.footer-bottom{
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+
